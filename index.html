@@ -1,24 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The Pages</title>
-  </head>
-  <body>
-    <h1>Welcome to ThePages</h1>
-    <ul>
-      <li>About</li>
-      <li>Gallery</li>
-      <li>Contact</li>
-    </ul>
 
-    <h2>About</h2>
-    <p>On these pages you will find a brief insight on the the various things that...</p>
-    
-    <h2>Gallery</h2>
+<head>
+  <title>The Pages</title>
+</head>
 
-    <h2>Contact</h2>
-    <p>Get in touch</p>
+<body>
+  <div class="container">
+    <header>
+      <h1>The Book Club</h1>
 
-    
-  </body>
+      <ul>
+        <li id="home">Home</li>
+        <li> <a href="about.html"> About</a></li>
+        <li> <a href="blog.html"> Blog</a></li>
+        <li> <a href="bookReview.html"> Book Reviews </a></li>
+        <li> <a href="#contact"> Contact </a></li>
+    </header>
+    <img
+      src="https://i1.wp.com/digital-photography-school.com/wp-content/uploads/2019/09/making-a-photo-book-digital-photography-school-adam-welch-1-5.jpg?resize=1500%2C1000&ssl=1"
+      alt="Stack of books" class="mainImg">
+
+    <div class="about">
+      <h2>About</h2>
+      <p> <strong> book club <em>noun [ C ] </em> ˈbʊk ˌklʌb </strong>
+        <br> A place designed to talk about books and review the lastest in the world of literacy!
+        <br>
+        <br>
+        <span> A book is a medium for recording information in the form of writing or images, typically composed of many
+          pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover. The technical
+          term for this physical arrangement is codex (plural, codices). In the history of hand-held physical supports
+          for extended written compositions or records, the codex replaces its predecessor, the scroll. A single sheet
+          in a codex is a leaf and each side of a leaf is a page.</span>
+      </p>
+      <p>Learn more on the history of books <strong> <a href="https://en.wikipedia.org/wiki/History_of_books"
+            target="_blank">here</a></strong></p>
+    </div>
+    <h2>Latest Reviews</h2>
+    <div class="review">
+      <img class="book1" src="https://images-na.ssl-images-amazon.com/images/I/510Zt+3qNNL._SX327_BO1,204,203,200_.jpg"
+        alt="Book cover of A Court of Thorns and Roses" height="400">
+
+      <img class="book2"
+        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345958969l/128029.jpg"
+        alt="Book cover of a Thousand splendid suns" height="400">
+
+      <img class="book3"
+        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052.jpg"
+        alt="Book Cover of Hunger Games" height="400">
+
+      <img class="book4"
+        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360206420l/11870085.jpg"
+        alt="Book cover of The Fault in Our Stars" height="400">
+
+      <!-- <p class="bookCovers">Click on the <strong>Book Covers</strong> for review</p> -->
+
+      <div><a href="#home">Home</a></div>
+    </div>
+
+    <p class="subscribe">Subcribe and let us know which is your favorite book and we shall review that next!</p>
+    <button>Subscribe</button>
+
+
+    <footer>
+      <h2 id="contact">Contact</h2>
+      <div class="form">
+        <form action="#" method="#" class="myForm" name="myForm">
+          <input type="text" id="userName" name="userName" value="Name" class="myForm">
+          <input type="text" id="userName" name="userName" value="Email" class="myForm">
+        </form>
+
+        <textarea type="text" name="message" id="message" class="myForm">Message</textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </footer>
+  </div>
+
+</body>
+
 </html>
