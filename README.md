@@ -4,7 +4,7 @@ One of the first websites I created when started to code. The idea of this site 
 
 **Link to project:** https://the-pages.netlify.app/
 
-![alt tag]()
+![alt tag](https://github.com/elza-somu/The-Pages/blob/main/img/screen.png)
 
 ## How It's Made:
 
